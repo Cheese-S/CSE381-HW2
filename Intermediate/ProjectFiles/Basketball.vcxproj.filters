@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Basketball.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{87A9E27B-AA14-4A75-BC14-03291A28F505}</UniqueIdentifier>
+      <UniqueIdentifier>{DB1E476C-EE18-4866-BA46-36D6AD2B32AA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Basketball.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\BasketballEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{64729128-ADA1-47CB-9AAF-CC1B8EF8D670}</UniqueIdentifier>
+      <UniqueIdentifier>{2469AD89-9C21-4492-B11A-77DD172D6711}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,8 +26,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Basketball">
-      <UniqueIdentifier>{D7757F5F-9495-4806-A1B5-84FB5ED89ECA}</UniqueIdentifier>
+      <UniqueIdentifier>{E16B2D39-8779-42CB-8970-7E77C5328E4C}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Basketball\BaseCharacter.cpp">
+      <Filter>Source\Basketball</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basketball\BaseCharacter.h">
+      <Filter>Source\Basketball</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Basketball\Basketball.Build.cs">
       <Filter>Source\Basketball</Filter>
     </None>
