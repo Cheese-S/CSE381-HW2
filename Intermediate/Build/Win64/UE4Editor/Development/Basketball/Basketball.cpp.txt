@@ -1,0 +1,2 @@
+C:\Users\Chees\Documents\Unreal Projects\Basketball\Intermediate\Build\Win64\UE4Editor\Development\Basketball\Definitions.Basketball.h
+C:\Users\Chees\Documents\Unreal Projects\Basketball\Source\Basketball\Basketball.h

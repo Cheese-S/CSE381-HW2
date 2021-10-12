@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Basketball",
+			"Path": "C:\\Users\\Chees\\Documents\\Unreal Projects\\Basketball\\Source\\Basketball.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "BasketballEditor",
+			"Path": "C:\\Users\\Chees\\Documents\\Unreal Projects\\Basketball\\Source\\BasketballEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Basketball.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{87A9E27B-AA14-4A75-BC14-03291A28F505}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Basketball.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BasketballEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{64729128-ADA1-47CB-9AAF-CC1B8EF8D670}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Basketball">
+      <UniqueIdentifier>{D7757F5F-9495-4806-A1B5-84FB5ED89ECA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Basketball\Basketball.Build.cs">
+      <Filter>Source\Basketball</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Basketball\Basketball.cpp">
+      <Filter>Source\Basketball</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basketball\Basketball.h">
+      <Filter>Source\Basketball</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Basketball\BasketballGameModeBase.cpp">
+      <Filter>Source\Basketball</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Basketball\BasketballGameModeBase.h">
+      <Filter>Source\Basketball</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
