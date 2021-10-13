@@ -37,7 +37,6 @@ ABaseCharacter::ABaseCharacter()
 	FPSMesh->bCastDynamicShadow = false;
 	FPSMesh->CastShadow = false;
 
-	GetMesh()->SetOwnerNoSee(true);
 
 
 }
@@ -46,6 +45,8 @@ ABaseCharacter::ABaseCharacter()
 void ABaseCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+
+	GetMesh()->SetOwnerNoSee(true);
 
 	check(GEngine != nullptr);
 
