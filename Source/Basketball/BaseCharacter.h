@@ -45,7 +45,7 @@ public:
 		void StopJump();
 
 	// FPS camera.
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(VisibleAnywhere,BlueprintReadWrite)
 		UCameraComponent* FPSCameraComponent;
 
 	// First-person mesh (arms), visible only to the owning player.

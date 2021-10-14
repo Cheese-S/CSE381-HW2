@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeBasketball_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x51507F51,
+				0x5BE22C36,
 				0xCF5653DB,
 				METADATA_PARAMS(nullptr, 0)
 			};
